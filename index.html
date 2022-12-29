@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="heading-container">
+        <h1 id="top-heading" class="heading">Generate a</h1>
+        <h1 id="buttom-heading" class="heading">random password</h1>
+      </div>
+
+      <div id="paragraph">
+        <p>Never use an insecure password again.</p>
+      </div>
+
+      <button id="btn" onclick="generatePassword()">Generate passwords</button>
+
+      <hr />
+      <span class="copied1"> </span>
+      <div id="pass1" class="password-field">
+        <p id="first-password" class="password"></p>
+      </div>
+      <span class="copied2"> </span>
+      <div id="pass2" class="password-field">
+        <p id="second-password" class="password"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
